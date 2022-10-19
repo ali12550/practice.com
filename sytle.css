@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    
+   
+}
+
+
+header img{
+    width: 10rem;
+    display: inline-block;
+    
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: rgb(10, 10, 10);
+    height: 4.4rem;
+    padding: 10px 4.8rem;
+}
+
+.list-nav{
+    list-style-type: none;
+    display: flex;
+    gap: 1.4rem;
+}
+.nav-bar{
+    margin-right: 6px;
+}
+.option-list{
+    background: none;
+    font-family: 'Raleway', sans-serif;
+     font-size: 0.9rem;
+    border: none;
+    font-weight: 500;
+    color: rgb(90 226 170);
+}
+
+.list-nav  a{
+    text-decoration: none;
+    color: white;
+}
+
+.sign-in{
+    background-color: #221c1c;
+    padding: 35px 16px ;
+    
+}
+
+.option-list{
+    background: none;
+    color: rgb(90 226 170);
+
+}
+
+
+/* ####### Section Program Details*/
+.section-program-details{
+    background-color: rgb(26, 25, 25);
+   
+}
+
+.program-details{
+    
+   padding: 4rem 0;
+}
+
+.program-details-top{
+    text-align: center;
+}
+.brief-sub-heading{
+    padding: 0.8rem 0;
+}
+.brief-summary-paragraph{
+    color: #4d4c4c;
+}
+.heading-top-program-details{
+    font-weight: 100;
+    font-size: 36px;
+}
+.sub-heading-program-details{
+    font-size: 21px;
+    font-weight: bold;
+}
+.about-program-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 3.2rem;
+    margin: 2.8rem 5.9rem;
+}
+.brief-summary{
+    line-height: 1.2;
+}
+.instructor{
+    margin: 1.8rem 0;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #4d4c4c;
+}
+.program-benifits{
+    display: flex;
+    gap: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    
+}
+
+.program-learn-button{
+    background-color: rgb(90 226 170);
+    padding: 0.7rem 0.8rem;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    border: none;
+}
+.program-benifits-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+.program-benifits-list li{
+    display: flex;
+    align-items: flex-end;
+}
+.program-benifits-list span{
+    font-family:auto;
+    font-size: 18.2px;
+    color: white;
+}
+.check-icon{
+    filter: brightness(6.5);
+}
+/* SEction Wellcome  and intro */
+.chapter{
+    display: flex;
+    gap: 8rem;
+    margin: 0 6rem;
+    padding: 62px 0;
+    color: #4d4c4c;
+}
+.primary-color{
+    color: white;
+}
+.top-heading-chapter{
+    font-size: 1.3rem;
+}
+.sub-heading-chapter{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.paragraph-chapter{
+    padding-bottom: 0.9rem;
+    line-height: 1.3;
+}
+.paragraph-chapter span{
+    font-weight: bolder;
+}
+.icon-list{
+    display: flex;
+    gap: 2.1rem;
+}
+.icon-list-chapter{
+    display: flex;
+    align-items: center;
+}
+.chapter-icon{
+    font-size: 21px;
+}
+.chapter button{
+    background-color: #fa7575;
+    padding: 0.3rem 0;
+    border: none;
+    width: 133px;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
